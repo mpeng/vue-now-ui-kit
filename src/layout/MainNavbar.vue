@@ -8,7 +8,7 @@
   >
     <template>
       <router-link v-popover:popover1 class="navbar-brand" to="/">
-        Now Ui Kit
+        CDC
       </router-link>
       <el-popover
         ref="popover1"
@@ -18,7 +18,7 @@
         trigger="hover"
       >
         <div class="popover-body">
-          Designed by Invision. Coded by Creative Tim
+          Coded by Michael Peng, Nov. 9, 2023
         </div>
       </el-popover>
     </template>
@@ -26,11 +26,11 @@
       <li class="nav-item">
         <a
           class="nav-link"
-          href="https://www.creative-tim.com/product/vue-now-ui-kit"
+          href="https://www.cdc.gov/index.htm"
           target="_blank"
         >
           <i class="now-ui-icons arrows-1_cloud-download-93"></i>
-          <p>Download</p>
+          <p>Visit CDC Main</p>
         </a>
       </li>
       <drop-down
@@ -43,7 +43,7 @@
           <i class="now-ui-icons business_chart-pie-36"></i> All components
         </nav-link>
         <a
-          href="https://demos.creative-tim.com/vue-now-ui-kit/documentation"
+          href="https://www.cdc.gov/datastatistics/index.html"
           target="_blank"
           class="dropdown-item"
         >
@@ -69,11 +69,11 @@
       <li class="nav-item">
         <a
           class="nav-link btn btn-neutral"
-          href="https://www.creative-tim.com/product/vue-now-ui-kit-pro"
+          href="https://www.cdc.gov/publications/index.html"
           target="_blank"
         >
           <i class="now-ui-icons arrows-1_share-66"></i>
-          <p>Upgrade to PRO</p>
+          <p>Publications</p>
         </a>
       </li>
 
