@@ -2,6 +2,9 @@ import Vue from 'vue';
 import App from './App.vue';
 // You can change this import to `import router from './starterRouter'` to quickly start development from a blank layout.
 import router from './router';
+//import routercrud from './routercrud'
+import 'bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import NowUiKit from './plugins/now-ui-kit';
 
 Vue.config.productionTip = false;
