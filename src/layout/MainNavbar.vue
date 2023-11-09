@@ -8,17 +8,17 @@
   >
     <template>
       <router-link v-popover:popover1 class="navbar-brand" to="/">
-        CDC
+        AUTHOR
       </router-link>
       <el-popover
         ref="popover1"
         popper-class="popover"
         placement="bottom"
-        width="200"
+        width="220"
         trigger="hover"
       >
         <div class="popover-body">
-          Updated by Michael Peng, Nov. 9, 2023
+          Michael Peng 11/09/2023
         </div>
       </el-popover>
     </template>
