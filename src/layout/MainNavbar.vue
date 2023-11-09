@@ -18,7 +18,7 @@
         trigger="hover"
       >
         <div class="popover-body">
-          Coded by Michael Peng, Nov. 9, 2023
+          Updated by Michael Peng, Nov. 9, 2023
         </div>
       </el-popover>
     </template>
@@ -83,7 +83,7 @@
           rel="tooltip"
           title="Follow us on Twitter"
           data-placement="bottom"
-          href="https://twitter.com/CreativeTim"
+          href="https://twitter.com/CDCGlobal"
           target="_blank"
         >
           <i class="fab fa-twitter"></i>
@@ -96,7 +96,7 @@
           rel="tooltip"
           title="Like us on Facebook"
           data-placement="bottom"
-          href="https://www.facebook.com/CreativeTim"
+          href="https://www.facebook.com/cdc/"
           target="_blank"
         >
           <i class="fab fa-facebook-square"></i>
@@ -109,7 +109,7 @@
           rel="tooltip"
           title="Follow us on Instagram"
           data-placement="bottom"
-          href="https://www.instagram.com/CreativeTimOfficial"
+          href="https://www.instagram.com/CDCgov/?hl=en"
           target="_blank"
         >
           <i class="fab fa-instagram"></i>

@@ -12,7 +12,7 @@
         trigger="hover"
       >
         <div class="popover-body">
-          Designed by Invision. Coded by Creative Tim
+          Updated by Michael Peng, Nov 9, 2023
         </div>
       </el-popover>
     </template>
