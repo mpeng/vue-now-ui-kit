@@ -8,16 +8,16 @@
       </parallax>
       <div class="content-center">
         <div class="container">
-          <h1 class="title">This is our great company.</h1>
+          <h1 class="title">This is CDC where lives are saved and people are protected.</h1>
           <div class="text-center">
-            <a href="#pablo" class="btn btn-primary btn-icon btn-round">
+            <a href="https://www.facebook.com/cdc/" class="btn btn-primary btn-icon btn-round">
               <i class="fab fa-facebook-square"></i>
             </a>
-            <a href="#pablo" class="btn btn-primary btn-icon btn-round">
+            <a href="https://twitter.com/CDCGlobal" class="btn btn-primary btn-icon btn-round">
               <i class="fab fa-twitter"></i>
             </a>
-            <a href="#pablo" class="btn btn-primary btn-icon btn-round">
-              <i class="fab fa-google-plus"></i>
+            <a href="https://www.instagram.com/CDCgov/?hl=en" class="btn btn-primary btn-icon btn-round">
+              <i class="fab fa-instagram"></i>
             </a>
           </div>
         </div>
@@ -187,8 +187,8 @@
     </div>
     <div class="section section-contact-us text-center">
       <div class="container">
-        <h2 class="title">Want to work with us?</h2>
-        <p class="description">Your project is very important to us.</p>
+        <h2 class="title">Connect with us?</h2>
+        <p class="description">Your life is very important to us.</p>
         <div class="row">
           <div class="col-lg-6 text-center ml-auto mr-auto col-md-8">
             <fg-input

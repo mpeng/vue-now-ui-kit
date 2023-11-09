@@ -8,10 +8,10 @@
       </parallax>
       <div class="container">
         <div class="photo-container">
-          <img src="img/ryan.jpg" alt="" />
+          <img src="img/Cdc-Logo-PNG.png" alt="" />
         </div>
-        <h3 class="title">Ryan Scheinder</h3>
-        <p class="category">Photographer</p>
+        <h3 class="title">CDC</h3>
+        <p class="category">Centers for Disease Control and Prevention</p>
         <div class="content">
           <div class="social-description">
             <h2>26</h2>
@@ -49,7 +49,7 @@
             <i class="fab fa-instagram"></i>
           </a>
         </div>
-        <h3 class="title">About me</h3>
+        <h3 class="title">About CDC</h3>
         <h5 class="description">
           An artist of considerable range, Ryan — the name taken by
           Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs and
