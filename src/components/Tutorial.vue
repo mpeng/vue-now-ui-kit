@@ -1,6 +1,6 @@
 <template>
   <div v-if="currentTutorial" class="edit-form">
-    <h4>Tutorial</h4>
+    <h4>Document</h4>
     <form>
       <div class="form-group">
         <label for="title">Title</label>
@@ -49,7 +49,7 @@
 
   <div v-else>
     <br />
-    <p>Please click on a Tutorial...</p>
+    <p>Please click on a Document</p>
   </div>
 </template>
 
@@ -126,7 +126,7 @@ export default {
 
 <style>
 .edit-form {
-  max-width: 300px;
+  max-width: 400px;
   margin: auto;
 }
 </style>

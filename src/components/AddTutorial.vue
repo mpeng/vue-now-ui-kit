@@ -80,5 +80,7 @@ export default {
 .submit-form {
   max-width: 300px;
   margin: auto;
+  margin-top: 100px;
+  margin-bottom: 300px;
 }
 </style>

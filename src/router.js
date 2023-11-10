@@ -7,6 +7,10 @@ import Profile from './pages/Profile.vue';
 import MainNavbar from './layout/MainNavbar.vue';
 import MainFooter from './layout/MainFooter.vue';
 
+import TutorialsList from './components/TutorialsList.vue';
+import Tutorial from './components/Tutorial.vue';
+import AddTutorial from './components/AddTutorial.vue';
+
 Vue.use(Router);
 
 export default new Router({
@@ -50,17 +54,20 @@ export default new Router({
     {
       path: "/tutorials",
       name: "tutorials",
-      component: () => import("./components/TutorialsList")
+      component: () => import("./components/TutorialsList"),
+      components: { default: TutorialsList, header: MainNavbar, footer: MainFooter },
     },
     {
       path: "/tutorials/:id",
       name: "tutorial-details",
-      component: () => import("./components/Tutorial")
+      component: () => import("./components/Tutorial"),
+      components: { default: Tutorial, header: MainNavbar, footer: MainFooter },
     },
     {
       path: "/add",
       name: "add",
-      component: () => import("./components/AddTutorial")
+      component: () => import("./components/AddTutorial"),
+      components: { default: AddTutorial, header: MainNavbar, footer: MainFooter },
     }
   ],
   scrollBehavior: to => {

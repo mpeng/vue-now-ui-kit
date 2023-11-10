@@ -1,11 +1,11 @@
 <template>
-  <div class="list row">
+  <div class="submit-form">
     <div class="col-md-8">
       <div class="input-group mb-3">
         <input type="text" class="form-control" placeholder="Search by title"
           v-model="title"/>
         <div class="input-group-append">
-          <button class="btn btn-outline-secondary" type="button"
+          <button class="btn-outline-secondary" type="button"
             @click="searchTitle"
           >
             Search
@@ -14,7 +14,7 @@
       </div>
     </div>
     <div class="col-md-6">
-      <h4>Tutorials List</h4>
+      <h4>Documents List</h4>
       <ul class="list-group">
         <li class="list-group-item"
           :class="{ active: index == currentIndex }"
@@ -32,7 +32,7 @@
     </div>
     <div class="col-md-6">
       <div v-if="currentTutorial">
-        <h4>Tutorial</h4>
+        <h4>Document</h4>
         <div>
           <label><strong>Title:</strong></label> {{ currentTutorial.title }}
         </div>
@@ -43,11 +43,11 @@
           <label><strong>Status:</strong></label> {{ currentTutorial.published ? "Published" : "Pending" }}
         </div>
 
-        <router-link :to="'/tutorials/' + currentTutorial.id" class="badge badge-warning">Edit</router-link>
+        <router-link :to="'/tutorials/' + currentTutorial.id" class="m-0 btn btn-md btn-success">Edit</router-link>
       </div>
       <div v-else>
         <br />
-        <p>Please click on a Tutorial...</p>
+        <p>Please click on a Document</p>
       </div>
     </div>
   </div>
@@ -124,4 +124,14 @@ export default {
   max-width: 750px;
   margin: auto;
 }
+
+.submit-form {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 300px;
+  border: 5px none;
+  text-align: left;
+}
+
 </style>

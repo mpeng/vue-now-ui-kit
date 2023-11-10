@@ -9,12 +9,19 @@
 
     <template slot="navbar-menu">
 
+      <li class="nav-item">
+        <a class="nav-link" href="/" target="_blank">
+          <i class="now-ui-icons arrows-1_cloud-download-93"></i>
+          <p>Home</p>
+        </a>
+      </li>
+
       <drop-down tag="li" title="Demo" class="nav-item">
         <nav-link to="/tutorials">
-          <i class="now-ui-icons users_circle-08"></i> Browse
+          <i class="now-ui-icons users_circle-08"></i> Browse Documents
         </nav-link>
         <nav-link to="/add">
-          <i class="now-ui-icons users_single-02"></i> Add
+          <i class="now-ui-icons users_single-02"></i> Add Documents
         </nav-link>
       </drop-down>
 
