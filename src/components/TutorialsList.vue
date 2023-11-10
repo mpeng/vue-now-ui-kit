@@ -43,7 +43,7 @@
           <label><strong>Status:</strong></label> {{ currentTutorial.published ? "Published" : "Pending" }}
         </div>
 
-        <router-link :to="'/tutorials/' + currentTutorial.id" class="m-0 btn btn-md btn-success">Edit</router-link>
+        <router-link :to="'/tutorials/' + currentTutorial.id" class="btn btn-info">Edit</router-link>
       </div>
       <div v-else>
         <br />
