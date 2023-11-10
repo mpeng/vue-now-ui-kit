@@ -21,6 +21,11 @@ import Modal from './Modal.vue';
 import Parallax from './Parallax.vue';
 import Slider from './Slider.vue';
 
+import AddTutorial from './AddTutorial.vue';
+import Tutorial from './Tutorial.vue';
+import TutorialsList from './TutorialsList.vue';
+
+
 import Pagination from './Pagination.vue';
 
 export {
@@ -44,5 +49,8 @@ export {
   Modal,
   Parallax,
   Slider,
-  Button
+  Button,
+  AddTutorial,
+  Tutorial,
+  TutorialsList
 };

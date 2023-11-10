@@ -6,42 +6,18 @@
     :color-on-scroll="colorOnScroll"
     menu-classes="ml-auto"
   >
-    <template>
 
-      <div id="app">
-        <nav class="navbar navbar-expand navbar-dark bg-dark">
-          <router-link to="/" class="navbar-brand">CDC</router-link>
-          <div class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <router-link to="/tutorials" class="nav-link">Tutorials</router-link>
-            </li>
-            <li class="nav-item">
-              <router-link to="/add" class="nav-link">Add</router-link>
-            </li>
-          </div>
-        </nav>
-
-        <div class="container mt-3">
-          <router-view />
-        </div>
-      </div>
-
-      <router-link v-popover:popover1 class="navbar-brand" to="/">
-        AUTHOR
-      </router-link>
-      <el-popover
-        ref="popover1"
-        popper-class="popover"
-        placement="bottom"
-        width="220"
-        trigger="hover"
-      >
-        <div class="popover-body">
-          Michael Peng 11/09/2023
-        </div>
-      </el-popover>
-    </template>
     <template slot="navbar-menu">
+
+      <drop-down tag="li" title="Demo" class="nav-item">
+        <nav-link to="/tutorials">
+          <i class="now-ui-icons users_circle-08"></i> Browse
+        </nav-link>
+        <nav-link to="/add">
+          <i class="now-ui-icons users_single-02"></i> Add
+        </nav-link>
+      </drop-down>
+
       <li class="nav-item">
         <a
           class="nav-link"

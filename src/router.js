@@ -48,8 +48,7 @@ export default new Router({
       }
     },
     {
-      path: "/",
-      alias: "/tutorials",
+      path: "/tutorials",
       name: "tutorials",
       component: () => import("./components/TutorialsList")
     },
